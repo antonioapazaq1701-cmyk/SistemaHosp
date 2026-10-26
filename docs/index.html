@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora la planificación académica del sistema hospitalario UNA Puno: documentos, requisitos y diagramas explicados paso a paso.">
+  <meta name="theme-color" content="#eff7fa">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>SistemaHosp — Planificación UNA Puno</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/vendor/marked.umd.js" defer></script>
+  <script src="assets/data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#ruta">Ir a la planificación</a>
+  <canvas id="ambient" aria-hidden="true"></canvas>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="SistemaHosp, inicio"><span class="brand-symbol" aria-hidden="true">+</span><span>Sistema<span class="brand-light">Hosp</span><small>UNA Puno · Planificación</small></span></a>
+    <nav aria-label="Navegación principal"><a href="#ruta">Los pasos</a><a href="#explorar">Explorar</a><a href="#enfoque">El enfoque</a><a href="#equipo">Equipo</a></nav>
+    <button id="motion" class="motion" aria-pressed="false" title="Pausar el movimiento del fondo"><span aria-hidden="true">Ⅱ</span><span class="motion-label">Pausar fondo</span></button>
+  </header>
+  <main id="inicio">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Proyecto académico · Etapa 1</p>
+        <h1 id="hero-title">Una atención<br>mejor conectada.</h1>
+        <p class="hero-lead">La idea de un sistema hospitalario para la comunidad universitaria, explicada desde el problema hasta el diseño.</p>
+        <p class="hero-sub">Hospital Universitario de la UNA Puno como referencia. Salud, organización e inteligencia artificial con un alcance definido.</p>
+        <div class="hero-actions"><a class="button primary" href="#ruta">Explorar la planificación <span aria-hidden="true">↗</span></a><button class="text-button" data-doc="plan-general">Leer el plan general</button></div>
+        <div class="hero-status"><span class="mini-progress" aria-hidden="true"><i></i></span><span><strong>8 de 12 pasos documentados</strong><small>Propuesta en revisión · Construcción pendiente</small></span></div>
+      </div>
+      <figure class="hero-art"><img src="assets/hospital-ia.png" width="1536" height="1024" alt="Ilustración conceptual de un centro de salud universitario conectado con citas y registros digitales." fetchpriority="high"><figcaption>Ilustración conceptual creada con IA. No representa la infraestructura real.</figcaption><div class="art-caption" aria-hidden="true"><span class="status-dot"></span> Personas, procesos y tecnología</div></figure>
+    </section>
+    <div class="scope-strip wrap"><p>Una propuesta para <strong>pregrado, Posgrado, docentes y administrativos.</strong></p><span>Atención gratuita</span><span>Datos ficticios</span><span>Validación institucional pendiente</span></div>
+
+    <section class="section wrap" id="ruta" aria-labelledby="route-title">
+      <div class="section-heading"><div><p class="section-kicker">De la idea al diseño</p><h2 id="route-title">Cada paso tiene un propósito.</h2><p>Elige un paso para entender qué aporta y consultar sus entregables.</p></div><span class="quiet-tag">12 pasos · Una ruta</span></div>
+      <div class="journey">
+        <aside class="step-sidebar"><label class="mobile-step-label" for="mobile-step">Seleccionar paso</label><select id="mobile-step" class="mobile-step"></select><nav id="step-list" aria-label="Pasos de la planificación"></nav></aside>
+        <article class="step-panel" id="step-panel" aria-live="polite"></article>
+      </div>
+      <p class="small-note">“Documentado” significa que hay entregables para revisión académica. No significa que el hospital los haya validado ni que el software esté construido.</p>
+    </section>
+
+    <section class="section library-section" id="explorar" aria-labelledby="library-title"><div class="wrap">
+      <div class="section-heading"><div><p class="section-kicker">Consulta a tu ritmo</p><h2 id="library-title">Encuentra lo que necesitas.</h2><p>Documentos completos, diagramas y requisitos en un solo lugar.</p></div></div>
+      <div class="library-controls"><div class="segmented" role="tablist" aria-label="Tipo de contenido"><button role="tab" aria-selected="true" aria-controls="library-results" id="tab-documents" data-kind="documents">Documentos <span>25</span></button><button role="tab" aria-selected="false" aria-controls="library-results" tabindex="-1" id="tab-diagrams" data-kind="diagrams">Diagramas <span>40</span></button><button role="tab" aria-selected="false" aria-controls="library-results" tabindex="-1" id="tab-requirements" data-kind="requirements">Requisitos <span>65</span></button></div>
+      <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Buscar por tema, palabra o código…" aria-label="Buscar en la biblioteca"></label></div>
+      <div class="filter-row"><label for="filter">Filtrar por paso</label><select id="filter"></select><label for="req-state" id="req-state-label" hidden>Estado</label><select id="req-state" hidden><option value="">Todos los estados</option><option value="Propuesto">Propuestos</option><option value="Pendiente de aclaración">Pendientes de aclaración</option></select><span id="result-count" role="status"></span></div>
+      <div id="library-results" role="tabpanel" aria-labelledby="tab-documents" tabindex="0"></div>
+      <div class="pagination"><button class="button subtle" id="prev-results">Anterior</button><span id="page-count"></span><button class="button subtle" id="next-results">Siguiente</button></div>
+    </div></section>
+
+    <section class="section wrap focus-section" id="enfoque" aria-labelledby="focus-title">
+      <figure class="focus-art"><img src="assets/asistente-ia.png" width="1536" height="1024" loading="lazy" alt="Ilustración conceptual de un asistente de conversación junto a un calendario y un símbolo de protección."><figcaption>Ilustración conceptual creada con IA.</figcaption></figure>
+      <div class="focus-copy"><p class="section-kicker">El papel de la inteligencia artificial</p><h2 id="focus-title">Orientar con claridad.<br>Cuidar los límites.</h2><p>El asistente propuesto ayuda a conocer los servicios, consultar disponibilidad autorizada y llegar al formulario de citas.</p><ul class="simple-checks"><li>La persona confirma su reserva en el flujo convencional.</li><li>El asistente no accede a historias clínicas ni emite diagnósticos.</li><li>El contenido sanitario y el proveedor externo requieren decisiones y revisión previas.</li></ul><button class="text-button" data-doc="p01-evaluacion-y-actualizacion-ia">Leer la propuesta de IA <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section class="wrap pending-section" aria-labelledby="pending-title"><div><p class="section-kicker">Lo que sigue</p><h2 id="pending-title">Decidir antes de construir.</h2><p>El siguiente paso es la arquitectura. Quedan también la interfaz, el modelo de datos y el cierre del diseño.</p></div><div class="pending-list"><button data-step="9"><span>09</span><div><strong>Arquitectura y capas</strong><small>Elegir tecnologías y definir cómo se conectan.</small></div><span aria-hidden="true">↗</span></button><button data-doc="p05-decisiones-pendientes-ers"><span>07</span><div><strong>Grupos de decisiones pendientes</strong><small>Servicios, permisos, contenido, IA y continuidad.</small></div><span aria-hidden="true">↗</span></button></div></section>
+
+    <section class="section wrap team-section" id="equipo" aria-labelledby="team-title"><div><p class="section-kicker">Equipo del proyecto</p><h2 id="team-title">Dos personas.<br>Una propuesta compartida.</h2><p>Ingeniería de Software I<br>Universidad Nacional del Altiplano · Puno</p></div><div class="team-list"><div><span class="initials" aria-hidden="true">AA</span><p><strong>Apaza Quispe, Antonio Vicente</strong><small>Integrante del proyecto</small></p></div><div><span class="initials" aria-hidden="true">KE</span><p><strong>Escobedo Arapa, Kenyi Blanca</strong><small>Integrante del proyecto</small></p></div></div></section>
+  </main>
+  <footer><div class="wrap footer-main"><a class="brand" href="#inicio"><span class="brand-symbol" aria-hidden="true">+</span><span>Sistema<span class="brand-light">Hosp</span><small>Una propuesta que empieza por planificar.</small></span></a><p>Portal académico independiente.<br>No es un sitio oficial ni un sistema de atención del hospital.</p><a href="#inicio">Volver al inicio ↑</a></div><div class="wrap footer-bottom"><span>Planificación actualizada al 26 de octubre de 2026</span><span>Datos de prueba ficticios · Lectura y exploración</span></div></footer>
+  <dialog id="reader" aria-labelledby="reader-title"><div class="reader-shell"><header class="reader-header"><div><span id="reader-context"></span><h2 id="reader-title"></h2></div><button class="icon-button close-reader" aria-label="Cerrar documento">×</button></header><div class="reader-body"><aside class="reader-toc"><p>En este documento</p><nav id="toc" aria-label="Índice del documento"></nav></aside><article id="reader-content" class="prose" tabindex="0"></article></div></div></dialog>
+  <dialog id="diagram-viewer" aria-labelledby="diagram-title"><div class="diagram-shell"><header class="reader-header"><div><span id="diagram-context"></span><h2 id="diagram-title"></h2></div><button class="icon-button close-diagram" aria-label="Cerrar diagrama">×</button></header><div class="diagram-tools"><button class="button subtle" id="diagram-prev" aria-label="Diagrama anterior">← Anterior</button><span id="diagram-position"></span><button class="button subtle" id="diagram-next" aria-label="Diagrama siguiente">Siguiente →</button><label for="zoom">Zoom</label><input id="zoom" type="range" min="50" max="300" step="25" value="100"><output id="zoom-output" for="zoom">100%</output><button class="text-button" id="fit-diagram">Ajustar</button></div><div class="diagram-stage" tabindex="0" aria-label="Diagrama ampliable. Usa las barras de desplazamiento al ampliar."><img id="diagram-image" alt=""></div><p class="diagram-hint">Amplía para leer los detalles. Usa las barras para desplazarte y las flechas para cambiar de vista.</p></div></dialog>
+  <noscript><div class="noscript">Activa JavaScript para explorar los documentos y diagramas del portal.</div></noscript>
+</body>
+</html>

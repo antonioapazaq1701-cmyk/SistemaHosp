@@ -1,0 +1,338 @@
+[
+  {
+    "source": "Planificación\\01_Investigación_del_problema_y_delimitación\\Problema_justificacion_y_objetivos.docx",
+    "sha256": "2943dc395476114cdcc49462771f4b0940067a3db4eb235549de25675a1a3a75"
+  },
+  {
+    "source": "Planificación\\01_Investigación_del_problema_y_delimitación\\Problema_justificacion_y_objetivos.md",
+    "sha256": "c23748d118bff760023f5bd34e7cfb780fa3bbf8255d4c3feb680d00a281da5c"
+  },
+  {
+    "source": "Planificación\\01_Investigación_del_problema_y_delimitación\\Evaluacion_y_actualizacion_IA.md",
+    "sha256": "ac1fba4ae7de3d76a47d20a15439e092d1ed9a6599024b6982e3ccf851f2b874"
+  },
+  {
+    "source": "Planificación\\01_Investigación_del_problema_y_delimitación\\Guia_de_entrevista.md",
+    "sha256": "02b325324b9e087f3f9355781179fb4682c1d75de71978e31f43351e7f452434"
+  },
+  {
+    "source": "Planificación\\02_Obtención_de_requisitos_y_actores\\Actores_y_levantamiento_de_requisitos.docx",
+    "sha256": "49f254bb31b381b57eacc4578d916fd338a6eedaba0c0ee2af5074db853cbee8"
+  },
+  {
+    "source": "Planificación\\02_Obtención_de_requisitos_y_actores\\Actores_y_levantamiento_de_requisitos.md",
+    "sha256": "b62982dafc7fced8285be1bd25dd59cc8b8898ef75b58315a7a3d99ad2b27fe3"
+  },
+  {
+    "source": "Planificación\\02_Obtención_de_requisitos_y_actores\\Cuestionario_resuelto_2026-10-21.txt",
+    "sha256": "aba0f47b412b71cb813649c7002052aaf19689f1133bc43ff854c16ea196db27"
+  },
+  {
+    "source": "Planificación\\03_Catálogo_de_requisitos\\Catalogo_de_Requisitos_CR.docx",
+    "sha256": "5610f96acca00c5ae38086e02804be702ce9f129e7d8577bc0f51d300b9d7cbc"
+  },
+  {
+    "source": "Planificación\\03_Catálogo_de_requisitos\\Catalogo_de_Requisitos_CR.md",
+    "sha256": "cbab80d19a4a307ac6ec81f0228556ca604b6fc9ad3c685d51307781b7122702"
+  },
+  {
+    "source": "Planificación\\03_Catálogo_de_requisitos\\Matriz_de_trazabilidad.md",
+    "sha256": "c4a4cc6fc58a91dc5089280c9c4ad9a977ebc134a6da9ea9bbca2ad2a336ab1f"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Modelo_de_Casos_de_Uso.docx",
+    "sha256": "d84928a8f9b7882c74af2f91efbe61978892d524d03109e0bd92c214b7a6136c"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Modelo_de_Casos_de_Uso.drawio",
+    "sha256": "0c37182bc870256ba2d5808b2647745e774a35e2cc6492b0b3cbe79f388ababe"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Modelo_de_Casos_de_Uso.md",
+    "sha256": "87545ee7eb0bd5d14e84df92ef3dae3bce682be03a717d369f9a1092f8c908a3"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Matriz_requisitos_casos_de_uso.md",
+    "sha256": "2958f391553d98c87c98cb9289691125d3cf48244ddb467e122b097e27047c37"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\README.md",
+    "sha256": "8df67e3ffd580a7a748cb3dc8826f71f56e0f01afa163dc88ba456683d0e948b"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D01.svg",
+    "file": "diagramas/p04/D01.svg",
+    "sha256": "de85b5a26b94bb5b64e656cd0aecd9f8f671832f23f358dcefa7cbd6a5c50837"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D02.svg",
+    "file": "diagramas/p04/D02.svg",
+    "sha256": "86ccb711f2f264a5567ba31894a3146279564cf1a3554e917cb9e8d2b9c656a7"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D03.svg",
+    "file": "diagramas/p04/D03.svg",
+    "sha256": "52cc30d0fdf21606b140c63577560e84b3f7901b600d017a2f35933589378adb"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D04.svg",
+    "file": "diagramas/p04/D04.svg",
+    "sha256": "2d86214621f2f567f3c8c819b9be8468521f0f1f65b51b6224220aa568487efd"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D05.svg",
+    "file": "diagramas/p04/D05.svg",
+    "sha256": "d6ad1e02ef83f18fd08f98b4fc268f5a1802e4844b2ab9359d2461fbffdfc4f1"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D06.svg",
+    "file": "diagramas/p04/D06.svg",
+    "sha256": "c29cb6b33525252fe9ea643c2d1dee872c2cb94f115f0007a3d0de17c52d8c4b"
+  },
+  {
+    "source": "Planificación\\04_Modelo_de_casos_de_uso\\Diagramas\\D07.svg",
+    "file": "diagramas/p04/D07.svg",
+    "sha256": "fc7dd75cced2cbc1c32c8954fb0e640121ed409644ea7bdef8b5aee3dcfbe8c5"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\Especificacion_de_Requisitos_ERS.docx",
+    "sha256": "6f1fe17971f4fec586bae3bd889f1554697d68ca3e77e47b66d247f92d2c4508"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\Especificacion_de_Requisitos_ERS.md",
+    "sha256": "d2ef74f4f872742195779702c016b8fc28165f4395e3fbe16db40de623d94587"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\Decisiones_pendientes_ERS.md",
+    "sha256": "18ec7b03f69241d8639ce4b43b8d3af4bfabe63226a8d1316785c66829c47ff6"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\Guia_de_sustentacion_CR_y_ERS.md",
+    "sha256": "ed62e196053edaa260f962b860f1e06d35bf6808c415f94f98e5db9da3d8ea95"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\Matriz_de_trazabilidad_ERS.md",
+    "sha256": "c64b3f4520ce0946a3277b4f2662ecd295bb6b8b7a502550eb0e1d1c28d1b8dd"
+  },
+  {
+    "source": "Planificación\\05_Especificación_de_requisitos_de_software\\README.md",
+    "sha256": "30a10e42fcc2ed1b813a8bb440f8eeacee6af96daaea4e13eb21bb52dff92ac1"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Modelo_de_Clases_de_Analisis.drawio",
+    "sha256": "9bc7e94a14bf2757e1df1f69ab2cbf42271a5b489a2eb98fed73e788c0e0e30d"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Modelo_de_Clases_de_Analisis.md",
+    "sha256": "ee28ec418fda1e1324643e7c9d7cc29e400eb1b5bc8a00e823b3ccc74133e20c"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Matriz_requisitos_casos_clases.md",
+    "sha256": "6fb388209a1a5be3801960b0b165c8655671646f4b8d73808cfa08e1a6b8b32a"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\README.md",
+    "sha256": "64423165cca2a427677490b0bfd9ec6204b902ab9d34b96900e7757dc59787d0"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D01.svg",
+    "file": "diagramas/p06/D01.svg",
+    "sha256": "b74b6b0d8c755e774eab1af1682d5954ae08c565264e39a5b041aa877554ddeb"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D02.svg",
+    "file": "diagramas/p06/D02.svg",
+    "sha256": "7f5de848f7ca0d39364e13aae99dde076d320f58d0ee7048550d8a52f0ba038e"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D03.svg",
+    "file": "diagramas/p06/D03.svg",
+    "sha256": "184e34ab0e398915950160b9356f6846ec5f19fa07701b6b0ec72d7d58719c84"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D04.svg",
+    "file": "diagramas/p06/D04.svg",
+    "sha256": "ee6b34befe4c1a727d21ab62502a6fe178346fda5095ac82efa648fa398f3147"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D05.svg",
+    "file": "diagramas/p06/D05.svg",
+    "sha256": "120c54d946432dd10c7ebbf3062574b39866ca8f2b6b19a8288af4a3100bf83b"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D06.svg",
+    "file": "diagramas/p06/D06.svg",
+    "sha256": "d21444f4bcf060eab09a8a320ebd32fddf01ea8c279856b0a300e4e859d97ecd"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D07.svg",
+    "file": "diagramas/p06/D07.svg",
+    "sha256": "7cd38222402d34e9afef580226e34d680e027aa6feda36f91addd8c9c7d402fe"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D08.svg",
+    "file": "diagramas/p06/D08.svg",
+    "sha256": "74c7af6e8415383b73f1d3ebcb1e195ba819de1e1e9f7c67be80de63241ea54a"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D09.svg",
+    "file": "diagramas/p06/D09.svg",
+    "sha256": "b192e962be7ad714c56ff24456ee97e0a4f45b43a5c5f4467eaecf15441a576e"
+  },
+  {
+    "source": "Planificación\\06_Diagrama_de_clases_de_análisis\\Diagramas\\D10.svg",
+    "file": "diagramas/p06/D10.svg",
+    "sha256": "8c50c4ec2e8f0b1a25e453edf9e8435899ea9a4033337563d09024fceda0444a"
+  },
+  {
+    "source": "Planificación\\07_Documento_de_análisis\\Documento_de_Analisis.docx",
+    "sha256": "21778ce6dc34d2d6b4cb05b28eb86d3ef845b1409522fc4e29012f7d4f6d0f3f"
+  },
+  {
+    "source": "Planificación\\07_Documento_de_análisis\\Documento_de_Analisis.md",
+    "sha256": "6cf63eb0097086fda1e537d31aedbb5559e3fa971ed261deea7b0362fb968e5c"
+  },
+  {
+    "source": "Planificación\\07_Documento_de_análisis\\README.md",
+    "sha256": "8655442c2d7961293bec4b4242b9b1b04889d482a8b39cf641651e60ecba44d5"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Modelo_de_Clases_de_Diseno.drawio",
+    "sha256": "9b94f757af80a4b9205575061583e48cc85d515c842ad47c7ed48834e3d6e3ca"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Modelo_de_Clases_de_Diseno.md",
+    "sha256": "3b30f7f6acb64b4644bbf07675849c0ee557941ec7178627b30dcce6f9335971"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Matriz_analisis_diseno.md",
+    "sha256": "16dcb2361622d02b6288a5fde41b80b2ad40d0e1641346dea5f95d8980ff9187"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\README.md",
+    "sha256": "7c64e997ba320d62213dec367b646561b4a21e26b995b1ffd421288e94eec61e"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\G00.svg",
+    "file": "diagramas/p08/G00.svg",
+    "sha256": "0efbe10957a3e55d349430f8768e070d858e87c29e3fd0e349799dcd19fe9424"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D01.svg",
+    "file": "diagramas/p08/D01.svg",
+    "sha256": "c3721aa4d7c640e055030a0ae6acf6e02171f16274f0037879cb86ca878d789b"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D02.svg",
+    "file": "diagramas/p08/D02.svg",
+    "sha256": "9ddcd6756eb5d7bbaf1939357d2e38507d24cf116e840c91709e5fbd65973069"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D03.svg",
+    "file": "diagramas/p08/D03.svg",
+    "sha256": "96fff388863dedc04d6aac7df4724a2b7ccb71d37a7cd72a5a31282bdef9fdb8"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D04.svg",
+    "file": "diagramas/p08/D04.svg",
+    "sha256": "aa0f5caa4abbf0227e13dbc8010c0deb67a0b409183f39d67dce170b79e13ff7"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D05.svg",
+    "file": "diagramas/p08/D05.svg",
+    "sha256": "3e6c8f9b53194ac80a7226fcc8a17822acbcdc4d8136503eabf72a34b545a2c2"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D06.svg",
+    "file": "diagramas/p08/D06.svg",
+    "sha256": "4e2eca214f62e2a8fbfa1e139808d27c947b089bc099f5b0200a4d017b47615c"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D07.svg",
+    "file": "diagramas/p08/D07.svg",
+    "sha256": "98ef1ddb183c1d5903c07f13e0be2200cca888e2c1a8c39df653c8424def270e"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D08.svg",
+    "file": "diagramas/p08/D08.svg",
+    "sha256": "d9d66228468205eeec928eb36b37c3d66a392dd27dcd835b9118e6b69a77a0a5"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D09.svg",
+    "file": "diagramas/p08/D09.svg",
+    "sha256": "a243125b0e4f8b9aefbb0136ccf6795149f986ff9975e3c176c84040b60745ef"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\D10.svg",
+    "file": "diagramas/p08/D10.svg",
+    "sha256": "5829ec0a3ac9d97852c706828668218dce4affcc1b7cc819836a1a8d34c568ac"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A01.svg",
+    "file": "diagramas/p08/A01.svg",
+    "sha256": "e813f7df2dc81ef31330a0703e5956d306ab350b6added2152c67d4e0645e192"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A02.svg",
+    "file": "diagramas/p08/A02.svg",
+    "sha256": "09510a338e9337f119ad859738e998415f98ac7e40ad8dc98c570ba49fe6780d"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A03.svg",
+    "file": "diagramas/p08/A03.svg",
+    "sha256": "1d43f4ecb7d123e51c565b7ca2a4103a899a958fcbb2d599ff9d1345d6ac9c1f"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A04.svg",
+    "file": "diagramas/p08/A04.svg",
+    "sha256": "9e9beaa9720626d7f8c54b18bf1a587523d8f2632d3e76b9e63e66a52abf9932"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A05.svg",
+    "file": "diagramas/p08/A05.svg",
+    "sha256": "fde88f6a967ed7fbef3d1f8a4f8776e0b9496d708b916fb8a907f130aea793b2"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A06.svg",
+    "file": "diagramas/p08/A06.svg",
+    "sha256": "878f0a0cb5f3a451622e549a11243fabfbcbe730524d9488ea245232cbeec86a"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A07.svg",
+    "file": "diagramas/p08/A07.svg",
+    "sha256": "fbb84c5412b9769895e2989595f400434b2ce0ba2a62b09efaf66c775ae4ea0d"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\A08.svg",
+    "file": "diagramas/p08/A08.svg",
+    "sha256": "944e2818b4deec92bb671c01d78b760e9e6c019924e6f21b2e48c0df4dabfa0e"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\T01.svg",
+    "file": "diagramas/p08/T01.svg",
+    "sha256": "7886c84b952b74212490f7da6d7e7a8b0a45f41a3b8a3b3e033ca0695ac58094"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\T02.svg",
+    "file": "diagramas/p08/T02.svg",
+    "sha256": "755706800ac8f41b5b204e02752349f79c02878890de0c95f5d77b758384cf88"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\M01.svg",
+    "file": "diagramas/p08/M01.svg",
+    "sha256": "0cdde0065f969371f6a4e3b939d83d7482744a1747ab3667e2b7db033210dc09"
+  },
+  {
+    "source": "Planificación\\08_Diagrama_de_clases_de_diseño\\Diagramas\\M02.svg",
+    "file": "diagramas/p08/M02.svg",
+    "sha256": "5c466995bb690e8221218c903ebdf36c51d108f0aaa66544cc6f374c3d05df87"
+  },
+  {
+    "source": "Planificacion_Base_Sistema_Hospitalario.md",
+    "sha256": "5d41382b517f33b2ed93fbded9556d305123fefc650d3c702b45b250a26235e3"
+  },
+  {
+    "source": "Planificación/README.md",
+    "sha256": "1d2f3a668e6c7bd46a3592a1dc656451be74e0163d685c4ddf7fc9b1d80d2f3f"
+  }
+]

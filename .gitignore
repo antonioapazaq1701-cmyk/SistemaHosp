@@ -1,0 +1,14 @@
+**/_auxiliares/
+PortalPlanificacion/_qa/
+PortalPlanificacion/_local/
+node_modules/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.log
+~$*
+.DS_Store
+# Los originales académicos se conservan solo en el equipo.
+/Planificación/
+/Planificacion_Base_Sistema_Hospitalario.md
