@@ -47,7 +47,11 @@ if args.url:
             request=urllib.request.Request(args.url.rstrip('/')+'/'+f.relative_to(site).as_posix(),method='GET')
             with urllib.request.urlopen(request,timeout=30) as response:
                 assert response.status==200
-                assert hashlib.sha256(response.read()).digest()==hashlib.sha256(f.read_bytes()).digest(),str(f)
+                published=response.read(); expected=f.read_bytes()
+                # Git normaliza los saltos de línea de Windows al publicar texto.
+                if f.suffix in {'.js','.css','.html','.svg','.md','.json'}:
+                    published=published.replace(b'\r\n',b'\n');expected=expected.replace(b'\r\n',b'\n')
+                assert hashlib.sha256(published).digest()==hashlib.sha256(expected).digest(),str(f)
 result={'documents':25,'diagrams':40,'requirements':65,'criteria':130,'originals_preserved':preserved,'original_binary_files_published':0,'file_download_buttons':0,'resources_http_verified':bool(args.url),'hospital_software_tests':0,'status':'conforme'}
 print(json.dumps(result,ensure_ascii=False))
 if local.exists():(local.parent/'verificacion.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),'utf-8')
