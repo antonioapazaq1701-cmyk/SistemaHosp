@@ -328,11 +328,147 @@
     "sha256": "5c466995bb690e8221218c903ebdf36c51d108f0aaa66544cc6f374c3d05df87"
   },
   {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Arquitectura_y_Capas.docx",
+    "sha256": "181f21669c6a770d45c322c50cf7250d4473d182b0cf4cd4f313755f501754cc"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Arquitectura_y_Capas.drawio",
+    "sha256": "fcb153c4dbaf3d0b6e5c2210fbe244bb44903e6e6dabaf096f4bc1da9e95d793"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Arquitectura_y_Capas.md",
+    "sha256": "8f12c75d82708160fa4fd6ed5c34c5f301ed778a4bfd21208ecc13e83ce75729"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Control_de_cambios_CC03.md",
+    "sha256": "67b6b6b3340ba71a9d9112f09ba3145f693a164e188c8be13ecf4125d70c21d6"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Decisiones_tecnicas.md",
+    "sha256": "7c5a39407bf17dcc45209b65fb58b508b4db30de3d84490bf799d473b8e8afaf"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Matriz_arquitectura_requisitos.md",
+    "sha256": "20e9c105d935f53b02b1ddc30f5f039dcd6d47feeab6eb24e5f0fb513f3d8d6f"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\README.md",
+    "sha256": "b8db30d3441e0bfcf977feeaea5270ab0eec87c9007628909b11a8432216dfda"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D01.svg",
+    "file": "diagramas/p09/D01.svg",
+    "sha256": "d844ae77dd81b612f318f243aa51b25dd6c2b5c17ac4393d3c988ca06b8cef87"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D02.svg",
+    "file": "diagramas/p09/D02.svg",
+    "sha256": "64a1073ba4825914453c377a613b9efb7f62eb80538f25446697656518fc7958"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D03.svg",
+    "file": "diagramas/p09/D03.svg",
+    "sha256": "a15452191e7036edf96612f7a705cad528e1a9c07d639350ab1d184b54c32e47"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D04.svg",
+    "file": "diagramas/p09/D04.svg",
+    "sha256": "8563e3e6b384cc781ee522b9e5cba7ef8446eeadb632415c2b7acd26725cf16d"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D05.svg",
+    "file": "diagramas/p09/D05.svg",
+    "sha256": "1853ab9c52c28201e3be36b45dc599aab373311f6325dddc458e55afd9360a31"
+  },
+  {
+    "source": "Planificación\\09_Arquitectura_y_capas\\Diagramas\\D06.svg",
+    "file": "diagramas/p09/D06.svg",
+    "sha256": "9e34b60e21e4c5de6ef517a28b94b6e01022dfaf5009b56c2ec6ec2f61e884db"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Modelo_de_Datos.docx",
+    "sha256": "c380ef3a1c06cb08578d303fcb1ec5f4be021a697f0eaae2ddd23c3c2006f572"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Modelo_de_Datos.md",
+    "sha256": "ce38c9ad409659a1ddca7bb49b04e5f6484002f718c7c3f3cb1393a81045303b"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diccionario_de_Datos.md",
+    "sha256": "3339f5dcaa77dadf46c02beb97c151abfdbe73f345644428e80f66e67ee172d0"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Matriz_requisitos_clases_datos.md",
+    "sha256": "ce7cd179d543d7726a0e0f014ee6eb31991ff4b321385480a0cd45b7cd058fd3"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Modelo_de_Datos_ER.drawio",
+    "sha256": "80906eee62797478c601752f2a614ebb5bae5d462265325de896ee7d76fc7b21"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\README.md",
+    "sha256": "b7005f037c681d7a98f1840be3d5245e26de037dd79705b057dd51f4dbc99a89"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Verificaciones_previstas.md",
+    "sha256": "d28b97b605cf649d6d926c0569ded05fb66ebcba7a35112f69f4207733a8995b"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D01.svg",
+    "file": "diagramas/p11/D01.svg",
+    "sha256": "39190f1c47a29875303edaf68e91227f03e6365a5d60c6916fbaa2935c639f93"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D02.svg",
+    "file": "diagramas/p11/D02.svg",
+    "sha256": "df1f3f8dcb388986e0bfb64e81113fb5255149f096743ae1de92cb6ff149a6a9"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D03.svg",
+    "file": "diagramas/p11/D03.svg",
+    "sha256": "b1504fb0ec68c43973a5e37b92992356ce30bcacbbbb73f8407e0e259ccc961c"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D04.svg",
+    "file": "diagramas/p11/D04.svg",
+    "sha256": "af793f64b79498667c47b36b260d898f24c370f6ee6c19b8ae434d3e9f691fc6"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D05.svg",
+    "file": "diagramas/p11/D05.svg",
+    "sha256": "86ed98b97364338962286c0e84b4d66e8bdb299896ffcf855ad683f2b3e9a2a9"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D06.svg",
+    "file": "diagramas/p11/D06.svg",
+    "sha256": "d51dca07dfee05dcb5eb5695f381cf55011a874284f015ed5ba219826a135c7f"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D07.svg",
+    "file": "diagramas/p11/D07.svg",
+    "sha256": "c0617481220d0fc328b923d8bcabbc1ba12d8e29d21f46cc802c004f3d19ce70"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D08.svg",
+    "file": "diagramas/p11/D08.svg",
+    "sha256": "07298e0d2ab09a1c3844432dad92a9147d7aa2843df9a747308b895dc2865730"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D09.svg",
+    "file": "diagramas/p11/D09.svg",
+    "sha256": "72362004f6fc48607619600a318010f69faefcc7e9d862f37f2783d4cadf6db3"
+  },
+  {
+    "source": "Planificación\\11_Modelo_de_datos_y_diagrama_ER\\Diagramas\\D10.svg",
+    "file": "diagramas/p11/D10.svg",
+    "sha256": "204d4328c8b9e90095aa24df90f2f9d2a24110d6b275b1a1ac0ad2429a2e8923"
+  },
+  {
     "source": "Planificacion_Base_Sistema_Hospitalario.md",
-    "sha256": "5d41382b517f33b2ed93fbded9556d305123fefc650d3c702b45b250a26235e3"
+    "sha256": "6f28dfe4928f401fb06066b617bde65d6152703d5f50798b6ca46905abf01848"
   },
   {
     "source": "Planificación/README.md",
-    "sha256": "1d2f3a668e6c7bd46a3592a1dc656451be74e0163d685c4ddf7fc9b1d80d2f3f"
+    "sha256": "b8714a720b8b1e207b372a320b7f234864664cd8d38db63d24430e1ebe69c1ab"
   }
 ]

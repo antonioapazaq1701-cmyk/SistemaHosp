@@ -1,6 +1,6 @@
 # SistemaHosp · Planificación UNA Puno
 
-Portal de lectura de la propuesta académica de un sistema hospitalario con asistente de IA. Reúne 25 documentos, 40 vistas UML y un explorador de 65 requisitos, organizados en los 12 pasos de la planificación.
+Portal de lectura de la propuesta académica de un sistema hospitalario con asistente de IA. Reúne 35 documentos, 56 vistas y un explorador de 65 requisitos, organizados en los 12 pasos de la planificación.
 
 **Sitio:** https://antonioapazaq1701-cmyk.github.io/SistemaHosp/
 
@@ -14,7 +14,7 @@ Portal de lectura de la propuesta académica de un sistema hospitalario con asis
 - Búsqueda, filtros y criterios de aceptación desplegables.
 - Diseño adaptable a computadoras y teléfonos.
 
-P1–P8 están documentados para revisión académica; P9–P12 siguen pendientes. El portal no inicia la construcción del sistema hospitalario, no atiende pacientes ni usa una API de IA. Los procesos institucionales y las decisiones pendientes conservan su estado.
+P1–P9 y P11 están documentados para revisión académica; P10 y P12 siguen pendientes. P11 se adelantó a pedido del equipo e incorpora 59 tablas propuestas y diez vistas ER editables. CC 03 de P9 actualiza la arquitectura híbrida, el ingreso por Medicina General y la sincronización; los requisitos de P3–P5 conservan sus estados y se consolidarán con los cambios en P12. El portal no inicia la construcción del sistema hospitalario, no atiende pacientes ni usa una API de IA. Los procesos institucionales y las decisiones pendientes conservan su estado.
 
 ## Equipo
 

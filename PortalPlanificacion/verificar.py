@@ -8,18 +8,21 @@ parser=argparse.ArgumentParser();parser.add_argument('--url');args=parser.parse_
 text=(site/'assets/data.js').read_text('utf-8')
 data=json.loads(text.removeprefix('window.PLAN_DATA = ').rstrip().removesuffix(';'))
 assert len(data['steps'])==12
-assert [s['status'] for s in data['steps']]==['Documentado']*8+['Pendiente']*4
-assert len(data['documents'])==25
+assert [s['status'] for s in data['steps']]==['Documentado']*9+['Pendiente','Documentado','Pendiente']
+assert len(data['documents'])==35
 assert len(data['requirements'])==65
 assert sum(len(r['aceptacion']) for r in data['requirements'])==130
 assert sum(r['estado']=='Propuesto' for r in data['requirements'])==57
-assert len({d['id'] for d in data['documents']})==25
+assert len({d['id'] for d in data['documents']})==35
 assert all(r['resultado_prueba']=='No ejecutado' for r in data['requirements'])
 ids={d['id'] for d in data['documents']}
 assert all(i in ids for s in data['steps'] for i in s['documents'])
-assert all(not s['documents'] and not s['diagrams'] for s in data['steps'][8:])
+assert all(not s['documents'] and not s['diagrams'] for s in [data['steps'][9],data['steps'][11]])
+assert len(data['steps'][8]['diagrams'])==6
 views=[d for s in data['steps'] for d in s['diagrams']]
-assert len(views)==40
+assert len(views)==56
+assert len(data['steps'][10]['diagrams'])==10
+assert len(data['steps'][10]['documents'])==5
 for d in views:
     p=site/d['path'];assert p.is_file() and p.stat().st_size>500
     svg=ET.parse(p).getroot();assert svg.tag.endswith('svg')
@@ -36,11 +39,17 @@ available=[m for m in manifest if (root/m['source']).exists()]
 for m in available: assert hashlib.sha256((root/m['source']).read_bytes()).hexdigest()==m['sha256'],m['source']
 local=root/'PortalPlanificacion/_qa/planificacion-preservada.json'
 preserved=0
+updated_indices=[]
 if local.exists():
     before=json.loads(local.read_text('utf-8'))
     for name,sha in before.items():
+        if name.replace('\\','/')=='Planificación/README.md':
+            backup=root/'Planificación/09_Arquitectura_y_capas/_auxiliares/respaldo_indices_previos/README_planificacion.md'
+            assert backup.exists() and hashlib.sha256(backup.read_bytes()).hexdigest()==sha,'Respaldo del índice anterior'
+            updated_indices.append(name)
+            continue
         assert hashlib.sha256((root/name).read_bytes()).hexdigest()==sha,name
-    preserved=len(before)
+        preserved+=1
 if args.url:
     for f in site.rglob('*'):
         if f.is_file():
@@ -52,6 +61,7 @@ if args.url:
                 if f.suffix in {'.js','.css','.html','.svg','.md','.json'}:
                     published=published.replace(b'\r\n',b'\n');expected=expected.replace(b'\r\n',b'\n')
                 assert hashlib.sha256(published).digest()==hashlib.sha256(expected).digest(),str(f)
-result={'documents':25,'diagrams':40,'requirements':65,'criteria':130,'originals_preserved':preserved,'original_binary_files_published':0,'file_download_buttons':0,'resources_http_verified':bool(args.url),'hospital_software_tests':0,'status':'conforme'}
+result={'documents':35,'diagrams':56,'requirements':65,'criteria':130,'originals_preserved':preserved,'original_binary_files_published':0,'file_download_buttons':0,'resources_http_verified':bool(args.url),'hospital_software_tests':0,'status':'conforme'}
+result['indices_actualizados_con_respaldo']=updated_indices
 print(json.dumps(result,ensure_ascii=False))
 if local.exists():(local.parent/'verificacion.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),'utf-8')
